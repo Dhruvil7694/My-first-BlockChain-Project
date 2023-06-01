@@ -2,7 +2,7 @@ const HDWalletProvider = require('@truffle/hdwallet-provider');
 const Web3 = require('web3');
 const { interface, bytecode } = require('./compile');
 const provider = new HDWalletprovider(
-    'Paste your new monic code',
+    'Paste your Mnemonic Words',
     'https://goerli.infura.io/v3/6f6ccea1cda54c1ca7438851ae3d1a4e'
 );
 const web3 = new Web3(provider);
